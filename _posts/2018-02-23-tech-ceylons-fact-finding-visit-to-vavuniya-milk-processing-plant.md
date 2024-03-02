@@ -6,6 +6,9 @@ thumbnail: "assets/img/feature-img/IMG-6095-1024x768.jpg"
 author: elijah
 tags: [Economic Development, Vavuniya, Techceylon, Dairy Industry, ]
 ---
+
+{% include aligner.html images="feature-img/IMG-6095-1024x768.jpg" column=1 %}
+
 Tech Ceylon Social Ventures recently undertook a visit to the Vavuniya Milk Processing Plant in Puthukulam, Vavuniya.
 
 The Vavuniya Milk Processing Plant was established in 2008 with funds from international aid organisations such as Oxfam International, the UNDP, and the USAID. The plant is an impressive facility with an estimated processing capacity of 1500 liters per day. Aside from housing modern equipment, the plant also has its own advanced milk testing and quality control laboratory.
