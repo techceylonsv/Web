@@ -3,7 +3,7 @@ layout: page
 title: Enterprise Mapping
 permalink: /enterprise_mapping/
 feature-img: "assets/img/pexels/cropped-TechCeylon.jpg"
-tags: [Page]
+tags: [Enterprise, Mapping, North, Location]
 ---
 
 Tech Ceylon is happy to launch a pilot version of the Enterprise Mapping Project, which seeks to highlight Small and Medium Enterprises in the Northern Province. The key idea is to give these enterprises an online presence, making it easier for customers to find them.
@@ -12,7 +12,8 @@ With time we hope to add greater functionality. As things are, you can zoom in a
 
 {% include google_map.html %}
 
-Following is the full list of SMEs.
+
+### Following is the full list of SMEs.
 
 |Company_Name                                                         |DS Division     |Long Form Address            |Type             |Name of contact person           |Contact number              |
 |---------------------------------------------------------------------|----------------|-----------------------------|-----------------|---------------------------------|----------------------------|
