@@ -4,7 +4,7 @@ title: Tech Ceylon's visit to Vavuniya Milk Processing Plant
 feature-img: "assets/img/feature-img/IMG-6095-1024x768.jpg"
 thumbnail: "assets/img/feature-img/IMG-6095-1024x768.jpg"
 author: elijah
-tags: [Economic Development, Vavuniya, Techceylon, Dairy Industry, ]
+tags: [Economic Development, Vavuniya, Techceylon, Dairy Industry ]
 ---
 
 {% include aligner.html images="feature-img/IMG-6095-1024x768.jpg" column=1 %}

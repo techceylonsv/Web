@@ -2,8 +2,8 @@
 layout: page
 title : Portfolio 
 permalink: /portfolio/
-subtitle: "Projects I am working on" 
-feature-img: "assets/img/pexels/computer.jpeg"
+subtitle: "Directors and Sponsors" 
+feature-img: "assets/img/pexels/TecHeaderImage-768x461.png"
 position: 4
 tags: [Page]
 ---
