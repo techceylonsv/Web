@@ -2,13 +2,16 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "assets/img/pexels/travel.jpeg"
+feature-img: "assets/img/pexels/cropped-TechCeylon.jpg"
 tags: [Page]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Tech Ceylon Social Ventures is a registered social enterprise operating in Sri Lanka. A group of Sri Lankan engineers and technologists with a shared vision of using technology for economic development, poverty alleviation, and environmental protection formed this organisation in 2017. We seek to empower individuals and communities through technology. Our current activities are primarily focused towards attaining economic growth in the war-ravaged regions of northern and eastern provinces of Sri Lanka. We recognise that the task at hand is very challenging and therefore value partnership. Our designers, engineers, and technical assistants work with the government, semi-government and private sector companies, and other non-profits to deliver technically sound and economically sustainable projects directed at uplifting the quality of life of the people we work with.
 
-Head over to the [theme's documentation](https://github.com/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+We specifically focus on the following areas:
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+  * Transforming livelihood activities and basic industries in agriculture, animal husbandry, and fisheries in war-affected regions.
+  * Influencing government policy on engineering and technology.
+  * Creating a viable technology road map for the north-east, lobbying support for its contents from the government and other stakeholders, and playing an active role in its implementation.
+  * Evaluating the appropriateness and relevance of emerging technologies in livelihood activities, renewable energy, and information technology, and making them accessible to our people.
+  * Tapping into the Sri Lankan diaspora's vast financial and technological resources and promoting investments.
