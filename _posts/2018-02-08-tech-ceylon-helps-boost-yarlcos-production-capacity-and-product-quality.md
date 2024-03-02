@@ -7,6 +7,8 @@ author: elijah
 tags: [Economic Development, Jaffna, Techceylon, Yarlco]
 ---
 
+{% include aligner.html images="feature-img/Yaarlco-1024x723.jpg" column=1 %}
+
 Yarlco is the dairy product arm of the Jaffna District Development Cooperative Society, based in Thirunelveli. It is a household name in the peninsula, trusted by the Jaffna people for the quality of its products.
 
 {% include aligner.html images="pexels/Capture2.png" column=1 %}
