@@ -1,12 +1,11 @@
 ---
-id: 184
-title: 'Tech Ceylon&#8217;s visit to Vavuniya Milk Processing Plant'
-date: 2018-02-23T16:29:00+00:00
-author: Elijah Hoole
 layout: post
-guid: https://www.techceylon.info/?p=184
-permalink: /tech-ceylons-fact-finding-visit-to-vavuniya-milk-processing-plant/
-image: /wp-content/uploads/2018/02/IMG-6095-1024x768.jpg
+title: Tech Ceylon&#8217;s visit to Vavuniya Milk Processing Plant
+feature-img: "assets/img/feature-img/IMG-6095-1024x768.jpg"
+thumbnail: "assets/img/feature-img/IMG-6095-1024x768.jpg"
+author: elijah
+tags: [Economic Development, Jaffna, Techceylon, Yarlco]
+image: /wp-content/uploads/2018/02/
 tags:
   - Dairy Industry
   - Economic Development
