@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/cropped-TechCeylon.jpg"
-tags: [Page]
+tags: [about, Techceylon, vision]
 ---
 
 ### Who we are
