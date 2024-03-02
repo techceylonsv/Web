@@ -3,7 +3,7 @@ layout: post
 title: Tech Ceylon Helps Jaffna Cooperative Societies Secure LKR 25 Million Worth of Government Funds
 feature-img: "assets/img/feature-img/IMG_4391_-1024x683.jpg"
 thumbnail: "assets/img/feature-img/IMG_4391_-1024x683.jpg"
-author: gnana
+author: admin
 tags: [Jaffna, MPCS, reports, Techceylon]
 ---
 
