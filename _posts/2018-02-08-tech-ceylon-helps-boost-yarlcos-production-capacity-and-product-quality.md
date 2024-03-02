@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Tech Ceylon helps boost Yarlco's production capacity and product quality
-feature-img: "assets/img/feature-img/Yaalco-1-1024x723.jpg"
-thumbnail: "assets/img/feature-img/Yaalco-1-1024x723.jpg"
+feature-img: "assets/img/feature-img/Yaarlco-1024x723.jpg"
+thumbnail: "assets/img/feature-img/Yaarlco-1024x723.jpg"
 author: elijah
 tags: [Economic Development, Jaffna, Techceylon, Yarlco]
 ---
