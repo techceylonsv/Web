@@ -6,9 +6,19 @@ feature-img: "assets/img/pexels/cropped-TechCeylon.jpg"
 tags: [Page]
 ---
 
+### Who we are
 Tech Ceylon Social Ventures is a registered social enterprise operating in Sri Lanka. A group of Sri Lankan engineers and technologists with a shared vision of using technology for economic development, poverty alleviation, and environmental protection formed this organisation in 2017. We seek to empower individuals and communities through technology. Our current activities are primarily focused towards attaining economic growth in the war-ravaged regions of northern and eastern provinces of Sri Lanka. We recognise that the task at hand is very challenging and therefore value partnership. Our designers, engineers, and technical assistants work with the government, semi-government and private sector companies, and other non-profits to deliver technically sound and economically sustainable projects directed at uplifting the quality of life of the people we work with.
 
-We specifically focus on the following areas:
+### Vision
+Formulating technically advanced, economically viable, and socially acceptable solutions to enhance the quality of our people’s life.
+
+### Focus
+Our expert engineers, technologists and designers work with the government, semi-government and private sector companies, and other non-profits to deliver sustainable projects that improve the socio-economic conditions of marginalized individuals and communities.
+
+### Expertise
+We have a diverse group of experts including engineering consultants, food processing experts, agricultural specialists, and fishery consultants.
+
+### We specifically focus on the following areas:
 
   * Transforming livelihood activities and basic industries in agriculture, animal husbandry, and fisheries in war-affected regions.
   * Influencing government policy on engineering and technology.
