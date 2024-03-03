@@ -56,5 +56,8 @@ exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node
 # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
 remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
 
+# GOOGLE ANALYTICS
+google_analytics: G-9WTLRQP9P8
+
 # Mapping
 google_maps_javascript_api_key: "AIzaSyBZ2-oiaczuQy9jx-UYu8BS5qn_2saXc48"

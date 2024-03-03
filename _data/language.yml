@@ -20,4 +20,4 @@ str_light: 'Light'
 str_date_format: '%B %-d, %Y'
 
 # Localization settings
-cusdis_lang: # zh-cn, es, tr, pt-BR
+cusdis_lang: en, ta
