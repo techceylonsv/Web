@@ -1,10 +1,10 @@
 ---
 layout: post
-title: White Paper: Ventilator modifications to support multiple patients on a single ventilator
+title: Ventilator modifications to support multiple patients on a single ventilator (White Paper)
 feature-img: "assets/img/pexels/bedlayout.png"
 thumbnail: "assets/img/pexels/bedlayout.png"
 author: elijah
-tags: [reports, ventilator, Covid, Techceylon]
+tags: [reports, ventilator, Covid, Techceylon, White Paper]
 ---
 
 #### Ventilator modifications to support multiple patients on a single ventilator

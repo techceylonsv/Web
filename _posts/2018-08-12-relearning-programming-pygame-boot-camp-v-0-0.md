@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Relearning Programming - PyGame Boot Camp V 0.0
+title: Relearning Programming - PyGame Boot Camp V0.0
 feature-img: "assets/img/pexels/IMG_4397-768x576.jpg"
 thumbnail: "assets/img/pexels/IMG_4397-768x576.jpg"
 author: elijah
