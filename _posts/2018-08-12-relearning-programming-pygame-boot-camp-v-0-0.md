@@ -56,7 +56,7 @@ Out of the six, four groups fully completed their games. These were Snake, Catch
 
 The group that completed Snake was awarded the prize for the most complete game whereas the bunch that tried ludo received a prize for the most valiant effort.
 
-{% include aligner.html images="pexels/ludo2.png, start.png, Screenshot-10.png" column=1 %}
+{% include aligner.html images="pexels/ludo2.png,start.png,Screenshot-10.png" column=1 %}
 
 _A sample of the games developed by the students_
 
@@ -68,6 +68,6 @@ While the original target audience of PyGame Boot Camp – namely, advanced leve
 
 Tech Ceylon is currently planning v 1.1 which would bring together 30 advanced level students from Ampara and Batticaloa districts for a day of fun-filled coding and learning.
 
-{% include aligner.html images="pexels/IMG_4386-768x576.jpg, IMG_4412-768x576.jpg, IMG_4408-750x500.jpg" column=1 %}
+{% include aligner.html images="pexels/IMG_4386-768x576.jpg,IMG_4412-768x576.jpg,IMG_4408-750x500.jpg" column=1 %}
 
 _All smiles: students during the final demonstration_

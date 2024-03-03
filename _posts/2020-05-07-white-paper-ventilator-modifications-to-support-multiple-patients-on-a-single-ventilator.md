@@ -18,7 +18,5 @@ Our manual also contains a dedicated section on the potential negative side to s
 
 Our motivations for compiling this manual are (i) help physicians make an informed decision on whether split ventilator support is viable in the context of COVID-19 by collecting as much information into one document and (ii) in the event clinicians decide to support multiple patients on a single ventilator, provide a clear step-by-step guide on how to do so. We believe all available options for meeting the surge demand for critical care must be explored and hope that this document helps evaluate the use of split ventilator supply scientifically.
 
-_Find the full report as pdf here:_
-
-{% include aligner.html images="assets/data/VentilatorModificationsToSupplyMultiplePatients-v1-external-CIRCULATION-April-2020.pdf" column=1 %}
-Ventilator Modifications to Supply Multiple Patients.
+_Find the full report of Ventilator Modifications to Supply Multiple Patients as pdf here:_
+<a href="assets/data/VentilatorModificationsToSupplyMultiplePatients-v1-external-CIRCULATION-April-2020.pdf" class="image fit">Download</a>
