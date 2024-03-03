@@ -7,8 +7,6 @@ author: elijah
 tags: [reports, ventilator, Covid, Techceylon, White Paper]
 ---
 
-#### Ventilator modifications to support multiple patients on a single ventilator
-
 {% include aligner.html images="pexels/bedlayout.png" column=1 %}
 _Recommended bed layout for split supply_
 
