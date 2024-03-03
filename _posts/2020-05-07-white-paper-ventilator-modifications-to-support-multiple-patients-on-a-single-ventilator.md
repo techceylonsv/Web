@@ -22,6 +22,4 @@ Our motivations for compiling this manual are (i) help physicians make an inform
 
 _Find the full report as pdf here:_
 
-<div class="file">
-  Ventilator Modifications to Supply Multiple Patients<a href="assets/data/VentilatorModificationsToSupplyMultiplePatients-v1-external-CIRCULATION-April-2020.pdf" class="button" download>Download</a>
-</div>
+[Ventilator Modifications to Supply Multiple Patients] ("assets/data/VentilatorModificationsToSupplyMultiplePatients-v1-external-CIRCULATION-April-2020.pdf")
