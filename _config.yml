@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/Web"
+baseurl: "/"
 url: "https://techceylon.org"
 
 # THEME-SPECIFIC CONFIGURATION
