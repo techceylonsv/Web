@@ -3,7 +3,8 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/cropped-TechCeylon.jpg"
-tags: [about, Techceylon, vision]
+gallery_path: "assets/img/sponsors"
+tags: [about, Techceylon, vision, sponsors]
 ---
 
 ### Who we are
@@ -25,3 +26,7 @@ We have a diverse group of experts including engineering consultants, food proce
   * Creating a viable technology road map for the north-east, lobbying support for its contents from the government and other stakeholders, and playing an active role in its implementation.
   * Evaluating the appropriateness and relevance of emerging technologies in livelihood activities, renewable energy, and information technology, and making them accessible to our people.
   * Tapping into the Sri Lankan diaspora's vast financial and technological resources and promoting investments.
+
+### Sponsors
+
+{% include gallery.html gallery_path=page.gallery_path %}
