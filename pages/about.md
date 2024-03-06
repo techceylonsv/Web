@@ -29,7 +29,7 @@ We have a diverse group of experts including engineering consultants, food proce
   * Tapping into the Sri Lankan diaspora's vast financial and technological resources and promoting investments.
 
 ### Directors
-{% include aligner.html gallery_path=page.gallery_path_directors %}
+{% include aligner.html images="assets/img/directors/" column=4 %}
 
 ### Sponsors
 
