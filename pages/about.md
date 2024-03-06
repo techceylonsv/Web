@@ -29,7 +29,7 @@ We have a diverse group of experts including engineering consultants, food proce
   * Tapping into the Sri Lankan diaspora's vast financial and technological resources and promoting investments.
 
 ### Directors
-{% include aligner.html images="assets/img/directors/Aiyingaran.png, Gnana.png, Kiruthika.png, Mathavan.png, Mayuran.png, Rasa.png, Sanathanan.png, Sayanthan.png, Senthilrooban.png, Sivasankar.jpg, yathunan.png" column=4 %}
+{% include aligner.html images="directors/Aiyingaran.png, directors/Gnana.png, directors/Kiruthika.png, directors/Mathavan.png, directors/Mayuran.png, directors/Rasa.png, directors/Sanathanan.png, directors/Sayanthan.png, directors/Senthilruban.png, directors/Sivasankar.jpg, directors/yathunan.png" column=4 %}
 
 ### Sponsors
 
