@@ -21,7 +21,6 @@ Our expert engineers, technologists and designers work with the government, semi
 We have a diverse group of experts including engineering consultants, food processing experts, agricultural specialists, and fishery consultants.
 
 ### We specifically focus on the following areas:
-
   * Transforming livelihood activities and basic industries in agriculture, animal husbandry, and fisheries in war-affected regions.
   * Influencing government policy on engineering and technology.
   * Creating a viable technology road map for the north-east, lobbying support for its contents from the government and other stakeholders, and playing an active role in its implementation.
@@ -29,7 +28,8 @@ We have a diverse group of experts including engineering consultants, food proce
   * Tapping into the Sri Lankan diaspora's vast financial and technological resources and promoting investments.
 
 ### Directors
-{% include aligner.html images="directors/Aiyingaran.png, directors/Gnana.png, directors/Kiruthika.png, directors/Mathavan.png, directors/Mayuran.png, directors/Rasa.png, directors/Sanathanan.png, directors/Sayanthan.png, directors/Senthilruban.png, directors/Sivasankar.jpg, directors/yathunan.png" column=4 %}
+
+{% include aligner.html images="directors/Aiyingaran.png,directors/Gnana.png,directors/Kiruthika.png,directors/Mathavan.png,directors/Mayuran.png,directors/Rasa.png,directors/Sanathanan.png,directors/Sayanthan.png,directors/Senthilruban.png,directors/Sivasankar.jpg,directors/yathunan.png" column=4 %}
 
 ### Sponsors
 
