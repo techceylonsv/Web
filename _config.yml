@@ -31,8 +31,8 @@ color_theme: auto                                       # auto, dark or light
 
 # Comments options
 comments:
-  disqus_shortname: TC Admin                            # Your discus shortname for comments
-  cusdis_app_id:                                        # Your cusdis data-app-id
+  #disqus_shortname: TC Admin                            # Your discus shortname for comments
+  cusdis_app_id: 2462038e-7823-4943-9a38-e641dc0504c7   # Your cusdis data-app-id
   utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
     repo:                                               # your public comments repository (e.g. owner/repo)
     issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
