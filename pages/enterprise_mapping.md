@@ -2,7 +2,7 @@
 layout: page
 title: Enterprise Mapping
 permalink: /enterprise_mapping/
-feature-img: "assets/img/pexels/cropped-TechCeylon.jpg"
+feature-img: "assets/img/pexels/TechCeylon.jpg"
 tags: [Enterprise, Mapping, North, Location]
 ---
 

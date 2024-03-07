@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Relearning Programming - PyGame Boot Camp V0.0
-feature-img: "assets/img/pexels/IMG_4397-768x576.jpg"
-thumbnail: "assets/img/pexels/IMG_4397-768x576.jpg"
+feature-img: "assets/img/feature_img/Pygames.jpg"
+thumbnail: "assets/img/feature_img/Pygames.jpg"
 author: elijah
 tags: [Game Development, Learning, Programming, PyGame, Python, Technology Education, Northern Province, Techceylon]
 ---
 
-{% include aligner.html images="feature-img/IMG_4397-1024x768.jpg" column=1 %}
+{% include aligner.html images="feature-img/Pygames.jpg" column=1 %}
 
 A key insight that emerged out of our regular informal brainstorming sessions at Tech Ceylon is that while Sri Lanka's youth are heavy consumers of interactive digital content – social media, computer games, and the like – they have very little sense of how such content is created. This is particularly true for Tamil speaking youth in the Northern and the Eastern Provinces where computer literacy beyond passive consumption is nearly non-existent.
 
@@ -33,7 +33,7 @@ A key constraint is the programming language of choice: the technicalities of th
 
 Moreover, the camp should sufficiently excite and inspire the participating students. In other words, the camp cannot be a bland introductory computer science class that starts by answering ‘what is a computer programme?’ It is also important that the participants are satisfied and fulfilled by the game they code. This means that the games developed during the day should have adequate functionality – such as scoring, screen transitions, and possibly sounds. Equally, the participants should avoid trying the extravagant – like coding a 3D game or even implementing gravity in a 2D setting – and failing.
 
-{% include aligner.html images="pexels/pyG-1024x501.png" column=1 %}
+{% include aligner.html images="pexels/pygame_v0.0.png" column=1 %}
 _Flyer for PyGame Boot Camp V 0.0_
 
 **Trial run**
@@ -58,7 +58,7 @@ The group that completed Snake was awarded the prize for the most complete game 
 
 {% include aligner.html images="pexels/ludo2.png" column=1 %}
 {% include aligner.html images="pexels/start.png" column=1 %}
-{% include aligner.html images="pexels/Screenshot-10.png" column=1 %}
+{% include aligner.html images="pexels/Screenshot.png" column=1 %}
 
 _A sample of the games developed by the students_
 
@@ -70,8 +70,8 @@ While the original target audience of PyGame Boot Camp – namely, advanced leve
 
 Tech Ceylon is currently planning v 1.1 which would bring together 30 advanced level students from Ampara and Batticaloa districts for a day of fun-filled coding and learning.
 
-{% include aligner.html images="pexels/IMG_4386-768x576.jpg" column=1 %}
-{% include aligner.html images="pexels/IMG_4412-768x576.jpg" column=1 %}
-{% include aligner.html images="pexels/IMG_4408-750x500.jpg" column=1 %}
+{% include aligner.html images="pexels/Pygames_2.jpg" column=1 %}
+{% include aligner.html images="pexels/Pygames_3.jpg" column=1 %}
+{% include aligner.html images="pexels/Pygames_4.jpg" column=1 %}
 
 _All smiles: students during the final demonstration_

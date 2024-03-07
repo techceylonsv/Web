@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Exporting northern fish to the Netherlands
-feature-img: "assets/img/pexels/cropped-JAFF1173-1.jpg"
-thumbnail: "assets/img/pexels/cropped-JAFF1173-1.jpg"
+feature-img: "assets/img/feature-img/Fish_Market.jpg"
+thumbnail: "assets/img/feature-img/Fish_Market.jpg"
 author: elijah
 tags: [Economic Development, Northern Province, Techceylon, Fisheries, Netherlands]
 ---
 
-{% include aligner.html images="feature-img/JAFF174-1024x474.jpg" column=1 %}
+{% include aligner.html images="feature-img/Fish_Market.jpg" column=1 %}
 
 Fishing is a key economic activity in the Northern Province. More than 35,000 families across Jaffna, Kilinochchi, Mullaitivu, and Mannar districts depend on fishing as their primary source of livelihood and animal protein intake. Prior to the onset of the civil war in the 1980s these districts collectively accounted for nearly 35 percent of the daily island-wide catch.
 
@@ -21,14 +21,14 @@ Members of the delegation undertook a fruitful visit to one of the seafood proce
 
 Tech Ceylon looks forward to working closely with these individuals to further strengthen the Northern Province fisheries sector – particularly with respect to adopting the relevant Dutch technical expertise.
 
-{% include aligner.html images="feature-img/Nether_visit_1-1024x733.jpg" column=1 %}
+{% include aligner.html images="feature-img/Discussion.jpg" column=1 %}
 Discussion with stakeholders.
 
-{% include aligner.html images="feature-img/Nether_visit_2-1024x790.png" column=1 %}
+{% include aligner.html images="feature-img/Processing_Facility.png" column=1 %}
 Waiting outside of the FishPartners-owned processing facility
 
-{% include aligner.html images="feature-img/Nether_visit_3-1024x768.jpg" column=1 %}
+{% include aligner.html images="feature-img/Processing.jpg" column=1 %}
 Fish, dead.
 
-{% include aligner.html images="feature-img/Nether_visit_4-1024x768.jpg" column=1 %}
+{% include aligner.html images="feature-img/Inside_Facility.jpg" column=1 %}
 Inside the processing facility.

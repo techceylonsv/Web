@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Tech Ceylon Helps Jaffna Cooperative Societies Secure LKR 25 Million Worth of Government Funds
-feature-img: "assets/img/feature-img/IMG_4391_-1024x683.jpg"
-thumbnail: "assets/img/feature-img/IMG_4391_-1024x683.jpg"
+feature-img: "assets/img/feature-img/Veerasingam_Hall.jpg"
+thumbnail: "assets/img/feature-img/Veerasingam_Hall.jpg"
 author: admin
 tags: [Jaffna, MPCS, reports, Techceylon]
 ---
 
-### Veerasingam Hall, Jaffna
+{% include aligner.html images="feature-img/Veerasingam_Hall.jpg" column=1 %}
 
 **Modernization and expansion of an existing rice mill for Pandateruppu Multi-Purpose**  
 **Corporative Society Ltd.**

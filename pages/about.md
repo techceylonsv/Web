@@ -2,7 +2,7 @@
 layout: page
 title: About Us
 permalink: /about/
-feature-img: "assets/img/pexels/cropped-TechCeylon.jpg"
+feature-img: "assets/img/pexels/TechCeylon.jpg"
 gallery_path: "assets/img/sponsors"
 gallery_path_directors: "assets/img/directors"
 tags: [about us, Techceylon, vision, sponsors]

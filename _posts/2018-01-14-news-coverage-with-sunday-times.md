@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Tech Ceylon Directors Speak to The Sunday Times
-feature-img: "assets/img/feature-img/STM2111.jpg"
-thumbnail: "assets/img/feature-img/STM2111.jpg"
+feature-img: "assets/img/feature-img/SundayTimes_Logo.jpg"
+thumbnail: "assets/img/feature-img/SundayTimes_Logo.jpg"
 author: admin
 tags: [news, SundayTimes, Techceylon]
 ---
