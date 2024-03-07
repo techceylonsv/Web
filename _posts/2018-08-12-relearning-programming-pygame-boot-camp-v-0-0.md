@@ -7,7 +7,7 @@ author: elijah
 tags: [Game Development, Learning, Programming, PyGame, Python, Technology Education, Northern Province, Techceylon]
 ---
 
-{% include aligner.html images="feature-img/Pygames.jpg" column=1 %}
+{% include aligner.html images="pexels/Pygames.jpg" column=1 %}
 
 A key insight that emerged out of our regular informal brainstorming sessions at Tech Ceylon is that while Sri Lanka's youth are heavy consumers of interactive digital content – social media, computer games, and the like – they have very little sense of how such content is created. This is particularly true for Tamil speaking youth in the Northern and the Eastern Provinces where computer literacy beyond passive consumption is nearly non-existent.
 
