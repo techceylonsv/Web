@@ -7,6 +7,6 @@ author: admin
 tags: [news, Jaffna, Get together, Techceylon]
 ---
 
-{% include aligner.html images="pexels/Get_together.jpg,pexels/Get_together_2.jpg" column=1 %}
-
 Our Jaffna branch held their annual get together on 1st December 2018 in Jaffna.
+
+{% include aligner.html images="pexels/Get_together.jpg,pexels/Get_together_2.jpg" column=1 %}
