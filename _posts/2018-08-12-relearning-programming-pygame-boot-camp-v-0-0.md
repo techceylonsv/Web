@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Relearning Programming - PyGame Boot Camp V0.0
-feature-img: "assets/img/feature_img/Pygames.jpg"
-thumbnail: "assets/img/feature_img/Pygames.jpg"
+feature-img: "assets/img/feature-img/Pygames.jpg"
+thumbnail: "assets/img/feature-img/Pygames.jpg"
 author: elijah
 tags: [Game Development, Learning, Programming, PyGame, Python, Technology Education, Northern Province, Techceylon]
 ---
