@@ -4,6 +4,7 @@ title: Enterprise Mapping
 permalink: /enterprise_mapping/
 feature-img: "assets/img/pexels/TechCeylon.jpg"
 tags: [Enterprise, Mapping, North, Location]
+bootstrap: true  
 ---
 
 Tech Ceylon is happy to launch a pilot version of the Enterprise Mapping Project, which seeks to highlight Small and Medium Enterprises in the Northern Province. The key idea is to give these enterprises an online presence, making it easier for customers to find them.
