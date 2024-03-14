@@ -1,7 +1,7 @@
 <div id="map" style="width:800px;height:600px;" ></div>
 
 <script>
-initMap() {
+$(function () {
 	
 	const myData = [
 	[9.7937885,80.2209773, 'Ever Tree Fruit Products Pvt Ltd'],
@@ -111,22 +111,16 @@ initMap() {
 				});
 				
 	    		google.maps.event.addListener(marker, 'click', function() {
-					//window.location = this.location_url;
-					//infowindow.setContent('<b>' + this.title + '</b><br/><a href="' + this.location_url + '">View Listings</a>');
 					infowindow.open(map, this);
 	  			});
-				
 				markers.push(marker);
 	    	}
 	    });
-
-		var options = { imagePath: 'http://rawgit.com/googlemaps/js-marker-clusterer/gh-pages/images/m'	};
-		var markerCluster = new MarkerClusterer(map, markers, options);
-
+			var options = { imagePath: 'http://rawgit.com/googlemaps/js-marker-clusterer/gh-pages/images/m'	};
+			var markerCluster = new MarkerClusterer(map, markers, options);
 		});
 	}
-
-};
+});
 	
 </script>
-<script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
+<script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}"></script>
