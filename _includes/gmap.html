@@ -1,7 +1,7 @@
 <div id="map" style="width:800px;height:600px;" ></div>
 
 <script>
-$(function () {
+initMap() {
 	
 	const myData = [
 	[9.7937885,80.2209773, 'Ever Tree Fruit Products Pvt Ltd'],
@@ -126,7 +126,7 @@ $(function () {
 		});
 	}
 
-});
+};
 	
 </script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;sensor=false"></script>
+<script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
