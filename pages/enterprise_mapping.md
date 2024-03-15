@@ -11,10 +11,12 @@ Tech Ceylon is happy to launch a pilot version of the Enterprise Mapping Project
 
 With time we hope to add greater functionality. As things are, you can zoom in and out to view the total number of enterprises according to geographic hierarchy. You can also hover above individual pins to view the name of the business.
 
+
 {% include google_map.html %}
 
 
-### Following is the full list of SMEs.
+
+#### Full list of SMEs.
 
 |Company_Name                                                         |DS Division     |Long Form Address            |Type             |Name of contact person           |Contact number              |
 |---------------------------------------------------------------------|----------------|-----------------------------|-----------------|---------------------------------|----------------------------|

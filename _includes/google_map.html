@@ -99,9 +99,11 @@ function initMap() {
 		markers.push(marker);
 	}
 
-	var options = { imagePath: 'http://rawgit.com/googlemaps/js-marker-clusterer/gh-pages/images/m'	};
-	var markerCluster = new MarkerClusterer(map, markers, options);
+	//var options = { imagePath: 'http://rawgit.com/googlemaps/js-marker-clusterer/gh-pages/images/m'	};
+	//var markerCluster = new MarkerClusterer(map, markers, options);
+	const markerCluster = new MarkerClusterer({ map, markers });
 }
 	
 </script>
+<script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
