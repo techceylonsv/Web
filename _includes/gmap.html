@@ -1,84 +1,144 @@
-<div id="map" style="width:800px;height:600px;" ></div>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<div id="map" style="width:800px;height:300px;" ></div>
+
+<!-- prettier-ignore -->
+<script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+	({key: "{{ site.google_maps_javascript_api_key }}", v: "weekly"});</script>
 
 <script>
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+import { MarkerClusterer } from "https://cdn.skypack.dev/@googlemaps/markerclusterer@2.3.1";
+
+async function initMap() {
+  // Request needed libraries.
+  const { Map, InfoWindow } = await google.maps.importLibrary("maps");
+  const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
+    "marker",
+  );
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 3,
+    center: { lat: 9.534597, lng: 80.299682 }, 
+    mapId: "DEMO_MAP_ID",
+  });
+  const infoWindow = new google.maps.InfoWindow({
+    content: "",
+    disableAutoPan: true,
+  });
+  // Create an array of alphabetical characters used to label the markers.
+  const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  // Add some markers to the map.
+  const markers = locations.map((position, i) => {
+    const label = labels[i % labels.length];
+    const pinGlyph = new google.maps.marker.PinElement({
+      glyph: label,
+      glyphColor: "white",
+    });
+    const marker = new google.maps.marker.AdvancedMarkerElement({
+      position,
+      content: pinGlyph.element,
+    });
+
+    // markers can only be keyboard focusable when they have click listeners
+    // open info window when marker is clicked
+    marker.addListener("click", () => {
+      infoWindow.setContent(position.lat + ", " + position.lng);
+      infoWindow.open(map, marker);
+    });
+    return marker;
+  });
+
+  // Add a marker clusterer to manage the markers.
+  new MarkerClusterer({ markers, map });
+}
+
+const locations = [
+{ lat:9.7937885, lng:80.2209773, label:'Ever Tree Fruit Products Pvt Ltd'},
+{ lat:9.637240499999999, lng:79.9010784, label:'Punguduthivu Food Manufacturer'},
+{ lat:9.7340655, lng:80.01056179999999, label:'Juchufy Fruit Based Industry'},
+{ lat:9.7937885, lng:80.2209773, label:'Thurkkai Industry Point'},
+{ lat:9.749336, lng:79.9873832, label:'V.S.S. Lunch Gingelly Oil'},
+{ lat:9.7937885, lng:80.2209773, label:'Vallipuresan Products'},
+{ lat:9.503310899999999, lng:80.2112164, label:'Vinayakapuram Farmers Co-op Society'},
+{ lat:9.6590692, lng:80.1316927, label:'Sustaining Hands'},
+{ lat:9.3895126, lng:80.4045957, label:'Possible Green Private Limted'},
+{ lat:9.3199267, lng:80.69642089999999, label:'Queens Product'},
+{ lat:9.503310899999999, lng:80.2112164, label:'Yharl Enterprises'},
+{ lat:9.7480738, lng:79.8828828, label:'KTR Arokgiya Products'},
+{ lat:9.6590692, lng:80.1316927, label:'Back To Nature Park Pvt Ltd'},
+{ lat:9.3199267, lng:80.69642089999999, label:'Angel Products'},
+{ lat:9.6614981, lng:80.02554649999999, label:'Lingan Cool Bar'},
+{ lat:9.450275699999999, lng:80.2781262, label:'Seer Bio Pvt Ltd'},
+{ lat:9.7910875, lng:80.0339312, label:'Kap Traders'},
+{ lat:9.7937885, lng:80.2209773, label:'Ragulasooriyans Traders & Logistics Point'},
+{ lat:9.3199267, lng:80.69642089999999, label:'Sathu Star'},
+{ lat:9.5673228, lng:80.38813329999999, label:'Sivanarul Products Pvt Ltd'},
+{ lat:9.749336, lng:79.9873832, label:'Vesta'},
+{ lat:9.5673228, lng:80.38813329999999, label:'Jovan Industry'},
+{ lat:9.759724499999999, lng:79.97409379999999, label:'Karunakaran Co'},
+{ lat:9.749336, lng:79.9873832, label:'SKS Industry Sandilipay'},
+{ lat:9.759724499999999, lng:79.97409379999999, label:'Sithamparam Gingerly Oil'},
+{ lat:9.3895126, lng:80.4045957, label:'Sivanaut Selvan Rice Mill'},
+{ lat:9.6614981, lng:80.02554649999999, label:'Java Juice'},
+{ lat:9.5673228, lng:80.38813329999999, label:'Jana Small Industry'},
+{ lat:9.749336, lng:79.9873832, label:'Mayoora Juice'},
+{ lat:9.759724499999999, lng:79.97409379999999, label:'Piranava Sakthi Industries'},
+{ lat:9.6590692, lng:80.1316927, label:'Vanitha Industry'},
+{ lat:8.7542029, lng:80.4982402, label:'Lankabuy'},
+{ lat:8.7542029, lng:80.4982402, label:'Premium Lanka Vavuniya'},
+{ lat:8.7542029, lng:80.4982402, label:'Food Processing Enterprises'},
+{ lat:9.6614981, lng:80.02554649999999, label:'Hevin Industry'},
+{ lat:9.6525626, lng:79.9080757, label:'M S S Product'},
+{ lat:9.637240499999999, lng:79.9010784, label:'Northern Aqua Pvtltd'},
+{ lat:8.980974300000002, lng:79.90441489999999, label:'Sea Food Processing & Manufacturing Caning Products'},
+{ lat:9.6525626, lng:79.9080757, label:'Shabishan Sea Food'},
+{ lat:9.6525626, lng:79.9080757, label:'Thambatty Seafood Industry'},
+{ lat:9.7937885, lng:80.2209773, label:'Sakthi Product Point'},
+{ lat:9.6525626, lng:79.9080757, label:'Fisheries Society Thambaddy'},
+{ lat:9.6614981, lng:80.02554649999999, label:'Sun Shine Product'},
+{ lat:8.7542029, lng:80.4982402, label:'Aattal Arasi'},
+{ lat:9.6590692, lng:80.1316927, label:'Agash Textile Industrial Pvt Ltd'},
+{ lat:9.759724499999999, lng:79.97409379999999, label:'Anthiran Janasakthy Leather Product Producer, label:Sales Co-op Sociaty Ltd'},
+{ lat:9.701389899999999, lng:80.0660324, label:'Banana Fiber Industry'},
+{ lat:9.450275699999999, lng:80.2781262, label:'Eva Creations'},
+{ lat:9.6590692, lng:80.1316927, label:'Fashion Tailoring Park'},
+{ lat:8.7542029, lng:80.4982402, label:'Iyappan Industry'},
+{ lat:9.450275699999999, lng:80.2781262, label:'Jaffna Copper Art Embossing Training Centre'},
+{ lat:9.450275699999999, lng:80.2781262, label:'Maha Fashion Corner And Academy'},
+{ lat:9.701389899999999, lng:80.0660324, label:'Snp Handicraft Product Centre'},
+{ lat:9.8000673, lng:80.1994182, label:'Sri Lanka Handloom'},
+{ lat:9.759724499999999, lng:79.97409379999999, label:'Usha Creation'},
+{ lat:9.6614981, lng:80.02554649999999, label:'Jaffna District Textile Weavers Co-op Socierty'},
+{ lat:9.6614981, lng:80.02554649999999, label:'Jaffna Palmyrah Handicraft'},
+{ lat:9.759724499999999, lng:79.97409379999999, label:'Kasthury Batick Centre'},
+{ lat:9.6525626, lng:79.9080757, label:'Island Farm'}, lng:
+{ lat:9.6614981, lng:80.02554649999999, label:'Sakthi Agro International Pvt Ltd'},
+{ lat:9.3802886, lng:80.3769999, label:'Lanktrade'}, lng:
+{ lat:9.7910875, lng:80.0339312, label:'Jaffna Craft And Copper Designs'},
+{ lat:9.701389899999999, lng:80.0660324, label:'Jaffna District Developemnt Co-Operative Society Ltd'},
+{ lat:9.6614981, lng:80.02554649999999, label:'Jaffna Palmyrah Handicrafts Guarantee Ltd'},
+{ lat:9.6590692, lng:80.1316927, label:'Pasal Tailoring Park Apparel'},
+{ lat:9.7910875, lng:80.0339312, label:'Sri Viji'},
+{ lat:9.3802886, lng:80.3769999, label:'Str Products'},
+{ lat:9.6614981, lng:80.02554649999999, label:'Noro Solutions Pvt Ltd'},
+{ lat:9.5673228, lng:80.38813329999999, label:'S.R.S. Coir Industry'},
+{ lat:9.749336, lng:79.9873832, label:'Siddha Medicine Co-Op Society (ltd)'},
+{ lat:9.6825755, lng:80.0369948, label:'Bio Tech'},
+{ lat:9.450275699999999, lng:80.2781262, label:'Suvadi Gte Ltd'},
+{ lat:7.940338400000001, lng:81.0187984, label:'Flexible Intermediate Bulk Container Lanka (Pvt) Ltd'},
+{ lat:9.6614981, lng:80.02554649999999, label:'North Lanka Product Chemical Liquid & Mixer'}
+];
+
+initMap();
+
+</script>
+
 $(function () {
 	
-	const myData = [
-	[9.7937885,80.2209773, 'Ever Tree Fruit Products Pvt Ltd'],
-	[9.637240499999999,79.9010784, 'Punguduthivu Food Manufacturer'],
-	[9.7340655,80.01056179999999, 'Juchufy Fruit Based Industry'],
-	[9.7937885,80.2209773, 'Thurkkai Industry Point'],
-	[9.749336,79.9873832, 'V.S.S. Lunch Gingelly Oil'],
-	[9.7937885,80.2209773, 'Vallipuresan Products'],
-	[9.503310899999999,80.2112164, 'Vinayakapuram Farmers Co-op Society'],
-	[9.6590692,80.1316927, 'Sustaining Hands'],
-	[9.3895126,80.4045957, 'Possible Green Private Limted'],
-	[9.3199267,80.69642089999999, 'Queens Product'],
-	[9.503310899999999,80.2112164, 'Yharl Enterprises'],
-	[9.7480738,79.8828828, 'KTR Arokgiya Products'],
-	[9.6590692,80.1316927, 'Back To Nature Park Pvt Ltd'],
-	[9.3199267,80.69642089999999, 'Angel Products'],
-	[9.6614981,80.02554649999999, 'Lingan Cool Bar'],
-	[9.450275699999999,80.2781262, 'Seer Bio Pvt Ltd'],
-	[9.7910875,80.0339312, 'Kap Traders'],
-	[9.7937885,80.2209773, 'Ragulasooriyans Traders & Logistics Point'],
-	[9.3199267,80.69642089999999, 'Sathu Star'],
-	[9.5673228,80.38813329999999, 'Sivanarul Products Pvt Ltd'],
-	[9.749336,79.9873832, 'Vesta'],
-	[9.5673228,80.38813329999999, 'Jovan Industry'],
-	[9.759724499999999,79.97409379999999, 'Karunakaran Co'],
-	[9.749336,79.9873832, 'SKS Industry Sandilipay'],
-	[9.759724499999999,79.97409379999999, 'Sithamparam Gingerly Oil'],
-	[9.3895126,80.4045957, 'Sivanaut Selvan Rice Mill'],
-	[9.6614981,80.02554649999999, 'Java Juice'],
-	[9.5673228,80.38813329999999, 'Jana Small Industry'],
-	[9.749336,79.9873832, 'Mayoora Juice'],
-	[9.759724499999999,79.97409379999999, 'Piranava Sakthi Industries'],
-	[9.6590692,80.1316927, 'Vanitha Industry'],
-	[8.7542029,80.4982402, 'Lankabuy'],
-	[8.7542029,80.4982402, 'Premium Lanka Vavuniya'],
-	[8.7542029,80.4982402, 'Food Processing Enterprises'],
-	[9.6614981,80.02554649999999, 'Hevin Industry'],
-	[9.6525626,79.9080757, 'M S S Product'],
-	[9.637240499999999,79.9010784, 'Northern Aqua Pvtltd'],
-	[8.980974300000002,79.90441489999999, 'Sea Food Processing & Manufacturing Caning Products'],
-	[9.6525626,79.9080757, 'Shabishan Sea Food'],
-	[9.6525626,79.9080757, 'Thambatty Seafood Industry'],
-	[9.7937885,80.2209773, 'Sakthi Product Point'],
-	[9.6525626,79.9080757, 'Fisheries Society Thambaddy'],
-	[9.6614981,80.02554649999999, 'Sun Shine Product'],
-	[8.7542029,80.4982402, 'Aattal Arasi'],
-	[9.6590692,80.1316927, 'Agash Textile Industrial Pvt Ltd'],
-	[9.759724499999999,79.97409379999999, 'Anthiran Janasakthy Leather Product Producer, Sales Co-op Sociaty Ltd'],
-	[9.701389899999999,80.0660324, 'Banana Fiber Industry'],
-	[9.450275699999999,80.2781262, 'Eva Creations'],
-	[9.6590692,80.1316927, 'Fashion Tailoring Park'],
-	[8.7542029,80.4982402, 'Iyappan Industry'],
-	[9.450275699999999,80.2781262, 'Jaffna Copper Art Embossing Training Centre'],
-	[9.450275699999999,80.2781262, 'Maha Fashion Corner And Academy'],
-	[9.701389899999999,80.0660324, 'Snp Handicraft Product Centre'],
-	[9.8000673,80.1994182, 'Sri Lanka Handloom'],
-	[9.759724499999999,79.97409379999999, 'Usha Creation'],
-	[9.6614981,80.02554649999999, 'Jaffna District Textile Weavers Co-op Socierty'],
-	[9.6614981,80.02554649999999, 'Jaffna Palmyrah Handicraft'],
-	[9.759724499999999,79.97409379999999, 'Kasthury Batick Centre'],
-	[9.6525626,79.9080757, 'Island Farm'],
-	[9.6614981,80.02554649999999, 'Sakthi Agro International Pvt Ltd'],
-	[9.3802886,80.3769999, 'Lanktrade'],
-	[9.7910875,80.0339312, 'Jaffna Craft And Copper Designs'],
-	[9.701389899999999,80.0660324, 'Jaffna District Developemnt Co-Operative Society Ltd'],
-	[9.6614981,80.02554649999999, 'Jaffna Palmyrah Handicrafts Guarantee Ltd'],
-	[9.6590692,80.1316927, 'Pasal Tailoring Park Apparel'],
-	[9.7910875,80.0339312, 'Sri Viji'],
-	[9.3802886,80.3769999, 'Str Products'],
-	[9.6614981,80.02554649999999, 'Noro Solutions Pvt Ltd'],
-	[9.5673228,80.38813329999999, 'S.R.S. Coir Industry'],
-	[9.749336,79.9873832, 'Siddha Medicine Co-Op Society (ltd)'],
-	[9.6825755,80.0369948, 'Bio Tech'],
-	[9.450275699999999,80.2781262, 'Suvadi Gte Ltd'],
-	[7.940338400000001,81.0187984, 'Flexible Intermediate Bulk Container Lanka (Pvt) Ltd'],
-	[9.6614981,80.02554649999999, 'North Lanka Product Chemical Liquid & Mixer']
-	];
+
 
 	//alert("To see the title of a marker, hover over the marker but don't click.");
 	$.fn.initMap = function () {

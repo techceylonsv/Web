@@ -36,4 +36,4 @@ We have a diverse group of experts including engineering consultants, food proce
 {% include gallery.html gallery_path=page.gallery_path %}
 
 ### Contact us
-{% include glocmap.html %}
+{% include gmap.html %}
