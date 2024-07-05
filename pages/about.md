@@ -29,7 +29,7 @@ We have a diverse group of experts including engineering consultants, food proce
 
 ### Directors
 
-{% include alignwithname.html images="directors/Ajayan.png,directors/Ayingaran.png,directors/Gnana.png,directors/Kiruthika.png,directors/Mathavan.png,directors/Myuran.png,directors/Rasanavaneethan.png,directors/Sanathanan.png,directors/Sayanthan.png,directors/Senthilruban.png,directors/Sivasankar.jpg,directors/Yathunanthan.png" column=4 %}
+{% include alignwithname.html images="directors/Ajayan.png,directors/Ayingaran.png,directors/Gnana.png,directors/Kiruthika.png,directors/Mathavan.png,directors/Myuran.png,directors/Sanathanan.png,directors/Sayanthan.png,directors/Senthilruban.png,directors/Sivasankar.jpg,directors/Yathunanthan.png" column=4 %}
 
 ### Sponsors
 
